@@ -33,4 +33,4 @@ This is a living methodology, actively being used and refined. Templates, skill 
 
 ## License
 
-TBD
+MIT
