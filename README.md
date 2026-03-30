@@ -1,35 +1,37 @@
 # ai-spec-driven-dev
 
-A methodology for building complex projects with AI as a collaborator at every stage — not just a code generator.
+A product-agnostic methodology library for building projects with AI as a collaborator through specification-driven development.
 
-## What Is This?
+This repository is not a software product, framework, or starter app. It is a living reference system for a working method: core process documentation, reusable templates, worked examples, and vendor-specific resource packs that can be applied in other projects.
 
-**AI-Assisted Specification-Driven Development** is a structured process that front-loads planning and documentation, uses AI as a thinking partner from ideation through implementation, and treats code as the last thing that gets written. By the time code is authored, the AI has deep context on what it's building and why — and the human understands every piece of it.
+## Start Here
 
-This isn't vibe coding. It's closer to the opposite.
+- Read the methodology map in [docs/index.md](docs/index.md)
+- Read the canonical method in [docs/core-method.md](docs/core-method.md)
+- Use the reusable artifacts in [templates/](templates/)
+- See a compact worked example in [examples/worked-example/README.md](examples/worked-example/README.md)
+- Use optional vendor guidance in [vendors/](vendors/)
 
-## How It Works
+## What Lives Here
 
-The process moves through defined phases:
+- `docs/` contains the vendor-neutral method, principles, glossary, and maintenance rules for the library itself.
+- `templates/` contains blank markdown artifacts for running the method in real projects.
+- `examples/` contains filled examples that show how templates evolve in practice.
+- `vendors/` contains optional vendor packs such as Anthropic-specific skills, setup notes, and prompt patterns.
 
-1. **Project Setup** — Initialize the git repo. Everything lives here from day one.
-2. **Ideation** — Work with AI to refine the concept, stress-test the idea, and surface problems before any design work begins.
-3. **Specification** — Formalize the design into detailed spec documents. Build the AI's project context and a documentation index as the specs grow.
-4. **Roadmapping** — Plan a phased roadmap from zero to defined milestones, grounded in the spec docs.
-5. **Implementation Loop** — For each task: plan the implementation, build and test the code, document and commit, then feed context forward into the next task. Repeat until the milestone is reached.
-6. **Maintenance** — Same process, different starting point. The product is "complete" but continues to evolve.
+## Design Intent
 
-AI takes on different roles at each phase through **skills** — custom instruction sets tuned for planning, implementation design, code authoring, and session management. Markdown is the universal format. Documentation lives in-repo alongside code. Git tracks everything.
+The core method stays vendor-neutral:
 
-The human reads and understands every output. That's the line between this process and letting the AI run wild.
+- no required platform
+- no required coding tool
+- no required prompt format
 
-## Read the Full Process
-
-→ [AI-Assisted Specification-Driven Development](ai-assisted-spec-driven-dev.md)
+Vendor packs are optional extensions layered on top of the method. They can be added, revised, or removed without changing the core process.
 
 ## Status
 
-This is a living methodology, actively being used and refined. Templates, skill definitions, and supporting materials will be added over time.
+This is a living methodology repository. Templates, examples, and vendor packs are expected to evolve as they are tested in real projects and promoted back here in refined form.
 
 ## License
 
