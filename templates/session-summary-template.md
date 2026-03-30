@@ -1,5 +1,9 @@
 # Session Summary Template
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Reusable template
+
 **When to use this:** Use at the end of a work session to capture what changed and what should happen next.
 
 ## Session

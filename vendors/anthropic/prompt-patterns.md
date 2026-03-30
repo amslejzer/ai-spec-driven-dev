@@ -1,5 +1,9 @@
 # Prompt Patterns
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor pack doc
+
 These are starting patterns, not canonical prompts. Adapt them per project.
 
 ## Ideation Pattern

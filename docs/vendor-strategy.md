@@ -1,5 +1,9 @@
 # Vendor Strategy
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Supporting doc
+
 The core method is vendor-neutral. Vendor packs are optional extensions.
 
 ## What Belongs in the Core

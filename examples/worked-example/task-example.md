@@ -1,6 +1,9 @@
 # Task Example
 
-**Method version:** 1.1
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Worked example  
+**Method Version:** 1.1
 
 ## Task
 

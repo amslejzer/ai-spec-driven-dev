@@ -1,5 +1,9 @@
 # Setup and Context Guidance
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor pack doc
+
 Use this document when applying the method in Anthropic-oriented environments.
 
 ## Recommended Context Layers

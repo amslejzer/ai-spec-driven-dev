@@ -1,5 +1,9 @@
 # Anthropic Skills
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor pack doc
+
 These files are repository artifacts representing role-specific instructions for Anthropic-oriented workflows.
 
 They are starting points, not frozen prompts. Each skill should be adapted as real usage reveals gaps or unnecessary detail.

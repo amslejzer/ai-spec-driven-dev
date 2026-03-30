@@ -1,5 +1,9 @@
 # Project Bootstrap Template
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Reusable template
+
 **When to use this:** Use at the very start of a new project to define the initial repository structure, documentation layout, and starting assumptions.
 
 ## Project

@@ -1,5 +1,9 @@
 # Artifact Lifecycle
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Supporting doc
+
 This repository is meant to absorb and refine artifacts that have proven useful in real projects.
 
 ## Promotion Rule

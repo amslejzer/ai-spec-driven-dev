@@ -1,5 +1,9 @@
 # Implementation Plan Template
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Reusable template
+
 **When to use this:** Use after a task is defined and before code changes begin.
 
 ## Summary

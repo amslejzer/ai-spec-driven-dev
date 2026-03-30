@@ -1,5 +1,9 @@
 # Role Mapping
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor pack doc
+
 This maps the core method roles to Anthropic-oriented usage patterns.
 
 ## Ideation Partner

@@ -1,5 +1,9 @@
 # Session Closer Skill
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor skill
+
 ## Purpose
 
 Capture the results of a work session so context carries forward cleanly.

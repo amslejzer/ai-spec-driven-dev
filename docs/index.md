@@ -1,5 +1,9 @@
 # Documentation Index
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Supporting doc
+
 This index is the main entry point for the methodology library.
 
 ## Core Method

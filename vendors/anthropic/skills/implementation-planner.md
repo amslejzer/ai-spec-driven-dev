@@ -1,5 +1,9 @@
 # Implementation Planner Skill
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor skill
+
 ## Purpose
 
 Turn one task definition into a build-ready implementation plan.

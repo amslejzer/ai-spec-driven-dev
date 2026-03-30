@@ -1,5 +1,9 @@
 # Principles
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Supporting doc
+
 This repository has a strong default path, but it is not trying to standardize every project into the same shape.
 
 ## Core Beliefs

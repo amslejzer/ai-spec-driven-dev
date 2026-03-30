@@ -1,5 +1,9 @@
 # Ideation Partner Skill
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor skill
+
 ## Purpose
 
 Help refine a project concept before formal specification begins.

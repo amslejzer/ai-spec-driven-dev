@@ -1,5 +1,9 @@
 # Vendor Packs
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Supporting doc
+
 Vendor packs are optional extensions layered on top of the core method.
 
 They can include:

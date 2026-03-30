@@ -1,5 +1,9 @@
 # Documentation Index Template
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Reusable template
+
 **When to use this:** Use once a project has more than a handful of docs and the AI or human reader needs a stable map.
 
 ## Start Here

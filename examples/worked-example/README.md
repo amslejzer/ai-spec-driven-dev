@@ -1,6 +1,9 @@
 # Worked Example
 
-**Method version:** 1.1
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Worked example  
+**Method Version:** 1.1
 
 This example shows a compact, fictional project moving through the method from bootstrap through session closeout. It is illustrative, not normative.
 

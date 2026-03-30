@@ -1,5 +1,9 @@
 # Anthropic Vendor Pack
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor pack
+
 This pack maps the core method to Anthropic-oriented workflows and artifacts.
 
 It is optional. The methodology does not require Anthropic tools. This pack exists because the method was initially exercised and refined in that environment.

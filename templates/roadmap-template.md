@@ -1,5 +1,9 @@
 # Roadmap Template
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Reusable template
+
 **When to use this:** Use after the specification phase to break the work into milestones, phases, and tasks.
 
 ## Roadmap Summary

@@ -1,5 +1,9 @@
 # Glossary
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Supporting doc
+
 - **Method**: the vendor-neutral process described in this repository
 - **Template**: a blank reusable markdown artifact
 - **Example**: a filled artifact that illustrates how a template or workflow looks in practice

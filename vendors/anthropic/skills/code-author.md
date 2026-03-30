@@ -1,5 +1,9 @@
 # Code Author Skill
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor skill
+
 ## Purpose
 
 Implement the approved plan and validate it against the stated criteria.

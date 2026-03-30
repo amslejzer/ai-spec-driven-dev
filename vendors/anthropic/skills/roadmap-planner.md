@@ -1,5 +1,9 @@
 # Roadmap Planner Skill
 
+**Version:** 1.1  
+**Date:** 2026-03-30  
+**Status:** Vendor skill
+
 ## Purpose
 
 Turn stable specifications into milestones, phases, and discrete tasks.
