@@ -12,6 +12,7 @@
 - Title:
 - Phase or milestone:
 - Status:
+- External link: *(optional — URL or ID in an external PM tool)*
 
 ## Goal
 

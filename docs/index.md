@@ -12,6 +12,7 @@ This index is the main entry point for the methodology library.
 - [Principles](principles.md): beliefs, constraints, and non-goals behind the method
 - [Vendor Strategy](vendor-strategy.md): what belongs in the core versus vendor packs
 - [Artifact Lifecycle](artifact-lifecycle.md): how templates, examples, and skills are promoted into this repo
+- [PM Integration](pm-integration.md): the lightweight markdown PM framework and how it maps to external tools
 - [Glossary](glossary.md): shared terminology used throughout the repository
 
 ## Reusable Artifacts

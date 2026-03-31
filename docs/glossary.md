@@ -14,3 +14,5 @@
 - **Task**: the smallest planned unit of work that should be completable and reviewable
 - **Implementation Plan**: the document that turns a task into acceptance criteria, tests, and approach details for the build step
 - **Session Summary**: the record of what happened in a work session and what changed as a result
+- **Project Board**: the aggregated view of all milestones, phases, and tasks with their current status, typically maintained as a roadmap file in the repository
+- **Integration Pattern**: the chosen approach for connecting repo-based artifacts to an external project management tool, typically repo-canonical, PM-canonical, or hybrid
