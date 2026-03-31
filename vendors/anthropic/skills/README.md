@@ -1,17 +1,39 @@
 # Anthropic Skills
 
-**Version:** 1.1  
-**Date:** 2026-03-30  
+**Version:** 1.2
+**Date:** 2026-03-31
 **Status:** Vendor pack doc
 
-These files are repository artifacts representing role-specific instructions for Anthropic-oriented workflows.
+These are Claude Code skill files that can be copied into any project's `.claude/commands/` directory and used as slash commands.
 
-They are starting points, not frozen prompts. Each skill should be adapted as real usage reveals gaps or unnecessary detail.
+## Usage
+
+Copy any skill file into your project:
+
+```
+cp vendors/anthropic/skills/ideation-partner.md /path/to/your-project/.claude/commands/
+```
+
+Then invoke it in Claude Code:
+
+```
+/ideation-partner A reading tracker app for personal use
+/roadmap-planner docs/specification.md
+/implementation-planner docs/tasks/M1-P1-T1.md
+/code-author docs/plans/M1-P1-T1-plan.md
+/session-closer docs/tasks/M1-P1-T1.md
+```
 
 ## Included Skills
 
-- [ideation-partner.md](ideation-partner.md)
-- [roadmap-planner.md](roadmap-planner.md)
-- [implementation-planner.md](implementation-planner.md)
-- [code-author.md](code-author.md)
-- [session-closer.md](session-closer.md)
+| Skill | Phase | Purpose |
+|-------|-------|---------|
+| [ideation-partner.md](ideation-partner.md) | Ideation | Refine a concept before specification |
+| [roadmap-planner.md](roadmap-planner.md) | Roadmapping | Turn specs into milestones and tasks |
+| [implementation-planner.md](implementation-planner.md) | Planning | Turn a task into a build-ready plan |
+| [code-author.md](code-author.md) | Implementation | Implement against an approved plan |
+| [session-closer.md](session-closer.md) | Any | Capture session results for continuity |
+
+## Adaptation
+
+These skills are starting points. Adapt them as real usage reveals gaps or unnecessary detail. The behavioral instructions in each skill are drawn from the methodology's core principles and prompt patterns.
