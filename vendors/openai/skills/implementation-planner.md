@@ -29,4 +29,5 @@ Behavior rules:
 - Do not write code.
 - Do not fill in missing requirements with assumptions when the task is underspecified.
 - Be specific about likely file changes and why they matter.
+- If the user does not provide an output path, default to a task-linked plan path such as `docs/plans/<task-id>-implementation-plan.md`. Infer `<task-id>` from the task file when possible and keep the plan cross-referenced to the task in `docs/tasks/` and the roadmap.
 ```

@@ -25,7 +25,7 @@ This maps the core method roles to OpenAI-oriented usage patterns and calls out 
 - Best used in ChatGPT or an API-backed planning flow with access to task and spec documents
 - Best prompt target: one implementation-planner prompt plus the active task and referenced specs
 - Focus on acceptance criteria, test plan, affected files, and scope boundaries
-- Best output target: `docs/plans/<task-id>-plan.md`
+- Best output target: `docs/plans/<task-id>-implementation-plan.md`, linked to the corresponding task file in `docs/tasks/`
 
 ## Code Author
 
