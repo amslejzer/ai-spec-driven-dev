@@ -23,3 +23,4 @@ They can include:
 ## Available Packs
 
 - [Anthropic](anthropic/README.md)
+- [OpenAI](openai/README.md)
