@@ -95,6 +95,7 @@ Typical outputs:
 
 The method assumes AI takes on different roles across phases. The names and exact prompts can vary by vendor or tool, but the functional roles stay stable:
 
+- project setup
 - ideation partner
 - roadmap planner
 - implementation planner

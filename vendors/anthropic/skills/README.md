@@ -17,6 +17,7 @@ cp vendors/anthropic/skills/ideation-partner.md /path/to/your-project/.claude/co
 Then invoke it in Claude Code:
 
 ```
+/project-setup A reading tracker app for personal use
 /ideation-partner A reading tracker app for personal use
 /roadmap-planner docs/specification.md
 /implementation-planner docs/tasks/M1-P1-T1.md
@@ -28,6 +29,7 @@ Then invoke it in Claude Code:
 
 | Skill | Phase | Purpose |
 |-------|-------|---------|
+| [project-setup.md](project-setup.md) | Setup | Take an empty folder to a method-ready project |
 | [ideation-partner.md](ideation-partner.md) | Ideation | Refine a concept before specification |
 | [roadmap-planner.md](roadmap-planner.md) | Roadmapping | Turn specs into milestones and tasks |
 | [implementation-planner.md](implementation-planner.md) | Planning | Turn a task into a build-ready plan |

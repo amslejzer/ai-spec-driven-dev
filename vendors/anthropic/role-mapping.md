@@ -6,6 +6,12 @@
 
 This maps the core method roles to Anthropic-oriented usage patterns.
 
+## Project Setup
+
+- Best used once at the very start of a project, in an empty or near-empty folder
+- Focus on capturing initial metadata, scaffolding the `docs/` tree, and handing off cleanly to ideation
+- Does not choose a language or scaffold code
+
 ## Ideation Partner
 
 - Best used in longer conversational planning sessions
