@@ -1,24 +1,22 @@
 # OpenAI Skills
 
-**Version:** 1.1
-**Date:** 2026-03-31
+**Version:** 1.2
+**Date:** 2026-04-24
 **Status:** Vendor pack doc
 
 These files are copy-paste role prompts for OpenAI-oriented workflows.
 
-They are not tied to a single OpenAI surface. You can paste them into:
+They are not tied to a single OpenAI surface. The same role prompt can be pasted into:
 
 - ChatGPT project instructions
 - Custom GPT instructions
-- Codex instructions for repository-connected work
-- API system prompts for internal tools or products
+- Codex CLI sessions and `AGENTS.md`
+- Codex cloud (the ChatGPT-integrated coding agent) via committed `AGENTS.md`
+- OpenAI API system prompts for internal tools or products
 
-## How To Use These Files
+## Installation
 
-1. Choose one role for the current session or workflow step.
-2. Copy the contents of that role file into your chosen prompt target.
-3. Pass the active task and relevant document paths or excerpts as the current session input.
-4. Write the output back into the repository artifact that belongs to that role.
+See [install.md](install.md) for the full install guide, including the dependency problem (method vocabulary and template references that do not travel with the prompt) and per-surface install recipes for each of the targets above.
 
 ## Recommended Pairings
 
@@ -27,8 +25,15 @@ They are not tied to a single OpenAI surface. You can paste them into:
 | [ideation-partner.md](ideation-partner.md) | ChatGPT or Custom GPT | Raw project idea, notes, constraints |
 | [roadmap-planner.md](roadmap-planner.md) | ChatGPT, Custom GPT, or API | Spec docs and documentation index |
 | [implementation-planner.md](implementation-planner.md) | ChatGPT or API | Task doc plus relevant specs |
-| [code-author.md](code-author.md) | Codex or repo-connected coding agent | Implementation plan plus repository access |
+| [code-author.md](code-author.md) | Codex CLI or Codex cloud | Implementation plan plus repository access |
 | [session-closer.md](session-closer.md) | ChatGPT, Codex, or API | Task path, repo state, decisions, blockers |
+
+## Included Context
+
+| File | Purpose |
+|---|---|
+| [install.md](install.md) | Installation guide and per-surface recipes |
+| [method-primer.md](method-primer.md) | Condensed method context shipped alongside the role prompts |
 
 ## Important Usage Rule
 

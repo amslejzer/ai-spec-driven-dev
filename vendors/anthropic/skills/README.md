@@ -1,20 +1,16 @@
 # Anthropic Skills
 
-**Version:** 1.2
-**Date:** 2026-03-31
+**Version:** 1.3
+**Date:** 2026-04-24
 **Status:** Vendor pack doc
 
-These are Claude Code skill files that can be copied into any project's `.claude/commands/` directory and used as slash commands.
+These are Claude Code skill files, intended to be installed into a `.claude/commands/` directory and invoked as slash commands.
 
-## Usage
+## Installation
 
-Copy any skill file into your project:
+See [install.md](install.md) for the full install guide, including scope choices (user-level vs. project-level), the method context bundle, and three install recipes with trade-offs.
 
-```
-cp vendors/anthropic/skills/ideation-partner.md /path/to/your-project/.claude/commands/
-```
-
-Then invoke it in Claude Code:
+Once installed, the skills are invoked as:
 
 ```
 /project-setup A reading tracker app for personal use
@@ -35,6 +31,13 @@ Then invoke it in Claude Code:
 | [implementation-planner.md](implementation-planner.md) | Planning | Turn a task into a build-ready plan |
 | [code-author.md](code-author.md) | Implementation | Implement against an approved plan |
 | [session-closer.md](session-closer.md) | Any | Capture session results for continuity |
+
+## Included Context
+
+| File | Purpose |
+|---|---|
+| [install.md](install.md) | Installation guide and recipes |
+| [method-primer.md](method-primer.md) | Condensed method context shipped alongside installed skills |
 
 ## Adaptation
 
