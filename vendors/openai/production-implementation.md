@@ -25,6 +25,7 @@ Use one role configuration per role instead of one giant assistant that does eve
 Recommended split:
 
 - `ideation-partner`
+- `specification-builder`
 - `roadmap-planner`
 - `implementation-planner`
 - `code-author`

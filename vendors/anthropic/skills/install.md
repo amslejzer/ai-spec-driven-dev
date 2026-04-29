@@ -23,6 +23,7 @@ The skills are not fully self-contained. Several reference core repository files
 |---|---|
 | `project-setup.md` | `templates/*.md` (all eight); `docs/pm-integration.md` |
 | `ideation-partner.md` | `templates/ideation-notes-template.md` |
+| `specification-builder.md` | `templates/specification-template.md`, `templates/documentation-index-template.md` |
 | `roadmap-planner.md` | `templates/roadmap-template.md`, `templates/task-template.md` |
 | `implementation-planner.md` | `templates/implementation-plan-template.md` |
 | `session-closer.md` | `templates/session-summary-template.md` |
@@ -56,7 +57,7 @@ BUNDLE=~/.claude/ai-spec-method
 mkdir -p ~/.claude/commands "$BUNDLE/templates"
 
 # skills
-cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,roadmap-planner,implementation-planner,code-author,session-closer}.md \
+cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,session-closer}.md \
    ~/.claude/commands/
 
 # context bundle
@@ -90,7 +91,7 @@ Skip the bundle. Have the skills reference the method repo at a fixed local path
 ```sh
 REPO=/path/to/ai-spec-driven-dev
 
-cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,roadmap-planner,implementation-planner,code-author,session-closer}.md \
+cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,session-closer}.md \
    ~/.claude/commands/
 
 cd ~/.claude/commands
@@ -115,7 +116,7 @@ REPO=/path/to/ai-spec-driven-dev
 cd /path/to/project
 
 mkdir -p .claude/commands templates
-cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,roadmap-planner,implementation-planner,code-author,session-closer}.md \
+cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,session-closer}.md \
    .claude/commands/
 cp "$REPO"/templates/*.md templates/
 ```

@@ -39,7 +39,7 @@ $ARGUMENTS
    - **Next Questions to Resolve** — remaining open items
    - **Decision Snapshot** — what feels solid, what needs more testing
 
-6. After writing the artifact, tell the user the next step in the method is specification — turning these notes into formal documentation.
+6. After writing the artifact, tell the user the next step is specification — turning these notes into formal documentation. Give them the exact prompt to run, for example: `/specification-builder docs/ideation-notes.md`. Note that specification typically takes more than one session.
 
 ## How to behave
 

@@ -13,6 +13,13 @@ This maps the core method roles to OpenAI-oriented usage patterns and calls out 
 - Focus on clarifying goals, constraints, risks, and early scope boundaries
 - Best output target: `docs/ideation-notes.md` or equivalent repository notes
 
+## Specification Builder
+
+- Best used in ChatGPT, a Custom GPT, or an API-backed documentation assistant
+- Best prompt target: one specification-builder role prompt plus ideation notes and any existing spec or bootstrap
+- Focus on grinding down open questions across one or more sessions, surfacing contradictions, and producing repository-friendly spec text
+- Best output target: `docs/specification.md` (single file) or `docs/specs/` with an index (directory layout, for larger scopes)
+
 ## Roadmap Planner
 
 - Best used in ChatGPT, a Custom GPT, or an internal API-backed planning tool

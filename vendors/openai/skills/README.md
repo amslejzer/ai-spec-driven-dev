@@ -1,7 +1,7 @@
 # OpenAI Skills
 
-**Version:** 1.2
-**Date:** 2026-04-24
+**Version:** 1.3
+**Date:** 2026-04-29
 **Status:** Vendor pack doc
 
 These files are copy-paste role prompts for OpenAI-oriented workflows.
@@ -23,6 +23,7 @@ See [install.md](install.md) for the full install guide, including the dependenc
 | Skill | Best OpenAI surface | Typical input |
 |---|---|---|
 | [ideation-partner.md](ideation-partner.md) | ChatGPT or Custom GPT | Raw project idea, notes, constraints |
+| [specification-builder.md](specification-builder.md) | ChatGPT, Custom GPT, or API-backed doc assistant | Ideation notes plus any existing spec or bootstrap |
 | [roadmap-planner.md](roadmap-planner.md) | ChatGPT, Custom GPT, or API | Spec docs and documentation index |
 | [implementation-planner.md](implementation-planner.md) | ChatGPT or API | Task doc plus relevant specs |
 | [code-author.md](code-author.md) | Codex CLI or Codex cloud | Implementation plan plus repository access |

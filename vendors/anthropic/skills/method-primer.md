@@ -1,7 +1,7 @@
 # AI-Assisted Specification-Driven Development: Method Primer
 
-**Version:** 1.0
-**Date:** 2026-04-24
+**Version:** 1.1
+**Date:** 2026-04-29
 **Status:** Vendor pack context artifact
 
 This primer condenses the method for use as runtime context by vendor pack skills. It is not the canonical method doc — see the `ai-spec-driven-dev` repository for the full version (`docs/core-method.md`, `docs/principles.md`, `docs/pm-integration.md`, `docs/glossary.md`).
@@ -36,6 +36,7 @@ Each functional role corresponds to a skill in this vendor pack:
 |---|---|---|
 | 0 | project setup | project-setup |
 | 1 | ideation partner | ideation-partner |
+| 2 | specification builder | specification-builder |
 | 3 | roadmap planner | roadmap-planner |
 | 4 (plan) | implementation planner | implementation-planner |
 | 4 (build) | code author | code-author |

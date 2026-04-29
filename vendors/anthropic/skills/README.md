@@ -1,7 +1,7 @@
 # Anthropic Skills
 
-**Version:** 1.3
-**Date:** 2026-04-24
+**Version:** 1.4
+**Date:** 2026-04-29
 **Status:** Vendor pack doc
 
 These are Claude Code skill files, intended to be installed into a `.claude/commands/` directory and invoked as slash commands.
@@ -15,6 +15,7 @@ Once installed, the skills are invoked as:
 ```
 /project-setup A reading tracker app for personal use
 /ideation-partner A reading tracker app for personal use
+/specification-builder docs/ideation-notes.md
 /roadmap-planner docs/specification.md
 /implementation-planner docs/tasks/M1-P1-T1.md
 /code-author docs/plans/M1-P1-T1-plan.md
@@ -27,6 +28,7 @@ Once installed, the skills are invoked as:
 |-------|-------|---------|
 | [project-setup.md](project-setup.md) | Setup | Take an empty folder to a method-ready project |
 | [ideation-partner.md](ideation-partner.md) | Ideation | Refine a concept before specification |
+| [specification-builder.md](specification-builder.md) | Specification | Turn ideation notes into formal spec documents across one or more sessions |
 | [roadmap-planner.md](roadmap-planner.md) | Roadmapping | Turn specs into milestones and tasks |
 | [implementation-planner.md](implementation-planner.md) | Planning | Turn a task into a build-ready plan |
 | [code-author.md](code-author.md) | Implementation | Implement against an approved plan |

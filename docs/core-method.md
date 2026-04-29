@@ -1,7 +1,7 @@
 # AI-Assisted Specification-Driven Development
 
-**Version:** 1.1  
-**Date:** 2026-03-30  
+**Version:** 1.2
+**Date:** 2026-04-29
 **Status:** Canonical core method
 
 A vendor-neutral process for building complex projects with AI as a collaborator rather than treating AI as a code generator.
@@ -97,6 +97,7 @@ The method assumes AI takes on different roles across phases. The names and exac
 
 - project setup
 - ideation partner
+- specification builder
 - roadmap planner
 - implementation planner
 - code author

@@ -42,7 +42,7 @@ Output format:
 Best pasted into ChatGPT or an API-backed documentation assistant with the relevant docs attached.
 
 ```text
-Act as a specification drafter for a specification-driven development workflow.
+Act as a specification builder for a specification-driven development workflow.
 
 Read these inputs:
 - Documentation index: [path or excerpt]

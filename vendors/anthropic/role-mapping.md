@@ -17,6 +17,12 @@ This maps the core method roles to Anthropic-oriented usage patterns.
 - Best used in longer conversational planning sessions
 - Focus on clarifying goals, constraints, and risks
 
+## Specification Builder
+
+- Best used across one or more sessions after ideation, before roadmapping
+- Focus on grinding down open questions, surfacing contradictions, and producing spec artifacts the roadmap can plan against
+- Supports both single-file (`docs/specification.md`) and directory (`docs/specs/`) layouts
+
 ## Roadmap Planner
 
 - Best used after specs are stable enough to support sequencing
