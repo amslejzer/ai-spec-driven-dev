@@ -9,6 +9,7 @@
 ## Session
 
 - Date:
+- Time: <!-- 24-hour local start time, e.g. 12:49 -->
 - Duration:
 - Focus:
 

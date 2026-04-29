@@ -33,9 +33,9 @@ $ARGUMENTS
    - Update the status field.
    - Add session reference to the completion record.
 
-6. Write the session summary to a file the user confirms (or suggest `docs/sessions/session-YYYY-MM-DD.md`). Use this structure:
+6. Write the session summary to a file the user confirms (or suggest `docs/sessions/session-YYYY-MM-DD-HHMM.md`, where `HHMM` is the 24-hour local start time, e.g. `session-2026-04-28-1249.md`). Use this structure:
 
-   - **Session** — date, duration estimate, focus area
+   - **Session** — date, time (24-hour local start), duration estimate, focus area
    - **Work Completed** — bullet list of what was done
    - **Decisions Made** — bullet list of choices and rationale
    - **Issues or Blockers** — bullet list of unresolved items

@@ -44,7 +44,7 @@ $ARGUMENTS
 
 8. Make the first commit with a message like `Initial project scaffold: method artifacts and metadata`.
 
-9. Write the first session summary to `docs/sessions/session-YYYY-MM-DD.md` from `templates/session-summary-template.md`. Record what was set up, the decisions captured (integration pattern, task scheme, agent surface, code location), and the next step.
+9. Write the first session summary to `docs/sessions/session-YYYY-MM-DD-HHMM.md` from `templates/session-summary-template.md` (filename uses 24-hour local start time, e.g. `session-2026-04-28-1249.md`). Record what was set up, the decisions captured (integration pattern, task scheme, agent surface, code location), and the next step.
 
 10. Print the handoff. Tell the user the next step is ideation and give them the exact prompt to run, for example: `/ideation-partner <one-line description from the bootstrap doc>`.
 
