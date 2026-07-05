@@ -1,7 +1,7 @@
 # Role Mapping
 
-**Version:** 1.1
-**Date:** 2026-03-31
+**Version:** 1.2
+**Date:** 2026-07-05
 **Status:** Vendor pack doc
 
 This maps the core method roles to OpenAI-oriented usage patterns and calls out the best copy-paste target for each role prompt.
@@ -41,6 +41,13 @@ This maps the core method roles to OpenAI-oriented usage patterns and calls out 
 - Focus on implementing against the approved plan rather than re-deciding requirements
 - Best output target: code changes, validation notes, and any required documentation updates
 
+## Repo Operator
+
+- Best used in Codex or another repository-connected coding agent
+- Best prompt target: repository-connected coding instructions plus the implementation plan path, or a plain description of the repo task
+- Focus on non-code repository changes — environment setup, tooling/config, doc-to-reality reconciliation — without touching application code
+- Best output target: environment/config changes, corrected documentation, and verification notes
+
 ## Session Closer
 
 - Best used in ChatGPT, Codex, or an API-backed internal closeout tool
@@ -57,6 +64,7 @@ This maps the core method roles to OpenAI-oriented usage patterns and calls out 
 | Roadmapping | ChatGPT or API-backed doc assistant | Good at structure, decomposition, and explicit assumptions |
 | Implementation planning | ChatGPT or API-backed planning tool | Works well with narrow task context |
 | Code implementation | Codex or repo-connected coding agent | Needs repository inspection, edits, and validation |
+| Non-code repo work | Codex or repo-connected coding agent | Needs repository inspection and verification, but no application code changes |
 | Session closeout | ChatGPT, Codex, or API-backed closeout tool | Mostly summarization plus lightweight repo state handling |
 
 ## Practical Rule

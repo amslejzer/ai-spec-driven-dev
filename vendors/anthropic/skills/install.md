@@ -1,7 +1,7 @@
 # Anthropic Skills: Installation
 
-**Version:** 1.0
-**Date:** 2026-04-24
+**Version:** 1.1
+**Date:** 2026-07-05
 **Status:** Vendor pack doc
 
 How to install the Anthropic skills so they can be invoked from Claude Code in other projects.
@@ -57,7 +57,7 @@ BUNDLE=~/.claude/ai-spec-method
 mkdir -p ~/.claude/commands "$BUNDLE/templates"
 
 # skills
-cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,session-closer}.md \
+cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,repo-operator,session-closer}.md \
    ~/.claude/commands/
 
 # context bundle
@@ -91,7 +91,7 @@ Skip the bundle. Have the skills reference the method repo at a fixed local path
 ```sh
 REPO=/path/to/ai-spec-driven-dev
 
-cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,session-closer}.md \
+cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,repo-operator,session-closer}.md \
    ~/.claude/commands/
 
 cd ~/.claude/commands
@@ -116,7 +116,7 @@ REPO=/path/to/ai-spec-driven-dev
 cd /path/to/project
 
 mkdir -p .claude/commands templates
-cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,session-closer}.md \
+cp "$REPO"/vendors/anthropic/skills/{project-setup,ideation-partner,specification-builder,roadmap-planner,implementation-planner,code-author,repo-operator,session-closer}.md \
    .claude/commands/
 cp "$REPO"/templates/*.md templates/
 ```

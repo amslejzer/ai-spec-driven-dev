@@ -1,7 +1,7 @@
 # AI-Assisted Specification-Driven Development
 
-**Version:** 1.2
-**Date:** 2026-04-29
+**Version:** 1.3
+**Date:** 2026-07-05
 **Status:** Canonical core method
 
 A vendor-neutral process for building complex projects with AI as a collaborator rather than treating AI as a code generator.
@@ -69,7 +69,7 @@ Typical outputs:
 For each task, repeat the same cycle:
 
 1. Plan the implementation from the task definition and relevant specs.
-2. Build and test against explicit acceptance criteria.
+2. Build and test against explicit acceptance criteria. Not every task is code: environment setup, tooling changes, and reconciling documentation with actual project state are built by the repo operator role rather than the code author.
 3. Document the session and update the task state.
 4. Feed discoveries back into future planning.
 
@@ -101,6 +101,7 @@ The method assumes AI takes on different roles across phases. The names and exac
 - roadmap planner
 - implementation planner
 - code author
+- repo operator
 - session closer
 
 These roles are part of the method. Specific skill files or prompt packs belong in vendor packs, not in the core method.

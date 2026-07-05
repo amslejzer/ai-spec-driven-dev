@@ -1,7 +1,7 @@
 # Role Mapping
 
-**Version:** 1.1  
-**Date:** 2026-03-30  
+**Version:** 1.2  
+**Date:** 2026-07-05  
 **Status:** Vendor pack doc
 
 This maps the core method roles to Anthropic-oriented usage patterns.
@@ -37,6 +37,12 @@ This maps the core method roles to Anthropic-oriented usage patterns.
 
 - Best used in environments with direct repository access and the ability to inspect or run tests
 - Focus on implementing against the implementation plan rather than re-deciding requirements
+
+## Repo Operator
+
+- Best used for implementation-loop tasks whose acceptance criteria are non-code (environment setup, tooling/config changes, doc-to-reality reconciliation)
+- Focus on making the smallest verifiable change to project state without touching application code
+- Can also run standalone, outside any tracked task, similar to session closer
 
 ## Session Closer
 

@@ -1,7 +1,7 @@
 # Anthropic Skills
 
-**Version:** 1.4
-**Date:** 2026-04-29
+**Version:** 1.5
+**Date:** 2026-07-05
 **Status:** Vendor pack doc
 
 These are Claude Code skill files, intended to be installed into a `.claude/commands/` directory and invoked as slash commands.
@@ -19,6 +19,7 @@ Once installed, the skills are invoked as:
 /roadmap-planner docs/specification.md
 /implementation-planner docs/tasks/M1-P1-T1.md
 /code-author docs/plans/M1-P1-T1-plan.md
+/repo-operator docs/plans/M1-P1-T2-plan.md
 /session-closer docs/tasks/M1-P1-T1.md
 ```
 
@@ -32,6 +33,7 @@ Once installed, the skills are invoked as:
 | [roadmap-planner.md](roadmap-planner.md) | Roadmapping | Turn specs into milestones and tasks |
 | [implementation-planner.md](implementation-planner.md) | Planning | Turn a task into a build-ready plan |
 | [code-author.md](code-author.md) | Implementation | Implement against an approved plan |
+| [repo-operator.md](repo-operator.md) | Implementation / Any | Execute non-code repo work — env setup, doc-to-reality reconciliation |
 | [session-closer.md](session-closer.md) | Any | Capture session results for continuity |
 
 ## Included Context
